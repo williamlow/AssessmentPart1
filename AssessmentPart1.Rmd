@@ -1,0 +1,54 @@
+---
+title: "AssessmentPart1"
+output: html_notebook
+---
+
+Trans-Pacific Dining in New York and Tokyo 
+
+Intro
+Data from Kaggle
+
+
+Where do people eat American food in Tokyo?
+
+A heatmap created in R
+
+```{r}
+
+```
+
+
+Set to heatmap, happy with default so no need for pal etc.
+Issues with leaflet accessing corrent zoom level of esri dark gray
+CartoDB built in functionality not working either
+Have to add directly from tile server as workaround
+CartoDB too dark can’t change brightness so settle for opacity or layering
+Manual digitization problematic – set visible mouse coordinates and note down
+Labels with html formatting
+Unable to interrogate data from heatmap to create legend
+Legend kind of less important for heatmaps as long as colours are self explanatory, but means missing information on scale etc
+
+
+Where do people eat Japanese food in New York?
+
+IMAGE ONLY - link to file
+
+Add all points, select by category and delete rest
+Style to heatmap
+Set heatmap colour ramp manually, with transparency
+Add basemap from QuickMapServices, increase brightness
+Manually digitize points, QGIS use OSMInfo plugin to find address of point
+Set labels for visibility
+Create print layout
+
+
+
+
+Comparison
+
+Reproducability
+Manual digitization
+Legend issue
+R regular speed bumps on stuff like / vs \, but once know, theoretically faster
+QGIS time spent managing layers, end up with folder full of working files
+QGIS easier to experiment with layouts and colouring eg. the ramp, the basemap 
